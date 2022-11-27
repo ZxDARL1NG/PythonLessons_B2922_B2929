@@ -20,7 +20,16 @@ class Student:
 	def to_chill(self):
 		print('Rest time')
 		self.gladness += 5
+		self.progress -= 2 f\
+		
+		def to_sleep(self):
+		print('Play games')
+		self.gladness += 5
+	def to_chill(self):
+		print('go outsde to buy a stuff')
+		self.gladness += 2
 		self.progress -= 2
+		
 	def is_alive(self):
 		if self.progress < -10:
 			print('You are bad')
